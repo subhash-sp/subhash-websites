@@ -1,0 +1,57 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+.thumbnail-picture{
+  width: 100%;
+}
+.vedio-grid{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr  ;
+ column-gap: 16px;
+ row-gap: 16px;
+}
+.thumbnail-row{
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.channel-picture{
+  margin-right: 10px;
+}
+.profile-picture{
+  width: 40px;
+  border-radius: 25px;
+}
+.vedio-title{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.vedio-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.vedio-author,
+.vedio-stats{
+  font-size: 18px;
+  color: grey;
+}
+.vedio-author{
+  margin-bottom: 3px;
+}
+.thumbnail-row{
+  margin-bottom: 12px;
+}
+.timeline {
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: roboto;
+  padding: 4px;
+}
